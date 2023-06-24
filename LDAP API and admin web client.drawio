@@ -1,9 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-06-24T01:07:16.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nbQ8Gas1UgLiz0Qv-XtK" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-24T01:15:54.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hCXlRWhHAx-t48fh3ZZe" version="21.5.0" type="github">
   <diagram name="Page-1" id="kpltpQUFjTTBAhDYNafU">
-    <mxGraphModel dx="1792" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2630" dy="2193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t371tnkArtYXUVjtmktd-28" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="170" y="40" width="500" height="554" as="geometry" />
+        </mxCell>
+        <mxCell id="RBwo3LP9QpBpMymfKp9m-21" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="565" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="350" />
+              <mxPoint x="440" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RBwo3LP9QpBpMymfKp9m-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="120" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="RBwo3LP9QpBpMymfKp9m-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-60" y="71" as="sourcePoint" />
@@ -11,10 +27,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RBwo3LP9QpBpMymfKp9m-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-182" y="-100" width="282" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="t371tnkArtYXUVjtmktd-28" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="170" y="40" width="500" height="554" as="geometry" />
+          <mxGeometry x="-182" y="-60" width="282" height="140" as="geometry" />
         </mxCell>
         <mxCell id="t371tnkArtYXUVjtmktd-3" value="" style="shape=mxgraph.cisco.storage.cloud;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#1A1A1A;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="130" width="180" height="112" as="geometry" />
@@ -97,8 +110,8 @@
         <mxCell id="t371tnkArtYXUVjtmktd-14" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#1A1A1A;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="120" width="70" height="133" as="geometry" />
         </mxCell>
-        <mxCell id="RBwo3LP9QpBpMymfKp9m-2" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Firewall exposes port 443 of administrative site for web traffic&lt;br&gt;&lt;br&gt;The LDAP REST API and OpenLDAP servers are not exposed outside the intranet&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-186" y="-25" width="290" height="30" as="geometry" />
+        <mxCell id="RBwo3LP9QpBpMymfKp9m-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;&quot;&gt;The Firewall exposes port 443 of administrative site for web traffic&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;The LDAP REST API and OpenLDAP servers are not exposed outside the intranet&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-169" y="-40" width="256" height="105" as="geometry" />
         </mxCell>
         <mxCell id="t371tnkArtYXUVjtmktd-16" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAP4AAADGCAMAAADFYc2jAAAAflBMVEUAAAD///9BQUHFxcU9PT37+/sJCQnf39+ZmZkbGxsYGBiqqqrv7+/V1dWgoKCWlpbn5+e1tbWIiIj09PTo6Ojh4eHZ2dloaGhJSUnNzc1/f3+jo6NjY2NPT0/AwMB5eXlbW1s0NDQnJyclJSVWVla5ubk1NTV7e3uNjY1xcXHAomxAAAAJAElEQVR4nO1d2WLiMAxMyk0g4S7QQqHQg///wSWnZUmGbLFJGzRPu7En0TS+QYPnA8zHk+fNU41x/Jpsp1Cxp/4Z7L2HwD5g5I+rjuqeGCP502XVEd0XyymU36k6nPujo+Q/oPpMfyx/UHUk1WCQyX+qOpBq8JTK71YdR1UIY/nTqqOoDtOz/KjqIKpDdJZfdQxVwveGVYdQJYbeww58Mbrec9UhVImT98u3eYfucDQaTvjCZdCZzRuGF/i6nc/m483Fu++9/o3xuUW+N20xf4DeKiucvdLCzTwrHF56v79bfC/XcMYWFy5bqvAbF67BkQbzx/kb6MCDGXQg8d6ChW964Q6W+Z/3i9gmXjQR6C0O9cK2Vqj9afzZPYO2B12gv4BlG1QYwMIIFf7J2e0ZifAPoDBAZdobXqDCjztHbgVdLP8ICoe4EDJx2fzOkVvBGKuA49sIF8I5DJe17h26DYRYxQ4U4vZ98e2P7hq3JbxhFXABg5uGdmA3R4WNO0duB5fe4Ssq1EY3NGP6X/eN2xI+LolAnb8Jy/p62R89z+prq5eFXnjUFAZ6oT7x/8lp39PXNoM2KvwGhSvM3ILC8E7R2kdzkGtgDqVOpncfQ00ba/dhusN6ce4Bgy27a2tHnanfmo3Zzyk+g1HLb83Dntv4nKN9wM0eonex0HYsAoFAIBAIaoLmg4D/4KPnPwjIBilB/zqxHuAPf0T+Y0Dki3yRL/JFvsgX+SJfR6cm+KF8ttIfREvki3yRL/JFvsjnIPJFvsgX+SJf5NcDIl/ki3yRL/JFPltN5It8kS/yRb7IJ9g2FFZF3mQU5CjyLAOAUKd5F2hjQHvxQniXgqaunvLAdZo7+StYXnjcqUt5suwnrLcoTdvDekM9Tzd3oTjAG6downr0S3v25MPsKT/3k4BeAVlqiZZ8Hep5ZXlqEcxE8xhaV89hfmPqcDTqwmRP/hKW580M5tru0kvQO8I/6rSQoWWZShOdtuFogVaFvhSY5m1bvpZXmjcz2EazILUs0vbPaCjw3LsDfl4d8TR38mHMeY+FnCzdDmYRdsrTGoi2QP8/ow1pK0pDuZ6W5XdpBa2JtuhfKR6zQ0rTOkR2bYFo8LVmd9ZMSbJrsEHQgd+mfC1zNjWT0HpeNq5DL9xnHHSPoW2u096TKnpSf5rAOEA0d/K1Jps+SpvVsu5Iwr5G+ya0No5ol1TRbQsmhMaEbFM+fPw3c/ekO8JpP/UUge1zYqK9gwtpsj70IVgTqdl4CGmcS4dN+bA7JkZCTzop6Y6w0aa+AgGmNRnaK66k0ZJ1H/KrGfA0d/LhEiMZryeIFWeKQNuJNaGtOFpsP7AmtBO4kgSNHXk+0a3emJCtbnlAhcQVYYtYcdOG41Nqq3C4RlsjWppvA9t18qZXiPaFaFzSslX5c1RjgFhxdwSuE7lxxAjRpgwN/ElyJ5KZutTipMSNHUz7rD2VVfnQMuUJ7VLywME7ajC0pYEGVgv5Gg/adzyRESPVu6A0d/JRvybuMvFqALSIb4Z23qh+EdqepcF6r3ixQJ/G2hpalQ97cchYK8WjD2jZ+T51r9OQKYuf/E3A/5YMLdKXtymeNRprTWf3tGem3YeYR527I4y5oIF3tNVuUtDAOKesZqawBhkx4umwz9HcyQcvbg7aQiFvBCdn5TgCxrUOUApoYLWgzizA+154eyVU3YuluZMPZ2c1ny/UCgXO1so0BszOLZbWvkYbqEcPwdNAPLzprl35cPRVy7JQrb12YG2iHFfg6rBf0LpqPXQEtB3/tKLhRYq2ATTeltXySS/ogMdi0lmqEeglYO8BolgWW4CmooVjlgYCOhQjRlPFGqnOaPClsywfdMdJfusBmH6Hqpt3bqeBNUTRzKdgD7VS92WOOhzIB5NvEfsHOAmZqkEe2imBRtoBtGLJOihPG4Ot13TG0tzJX+Lb+cmsbbhcAJuLxnj+MY27bDDktf0pD7lfahXJXNZoTMDxZTqX666z5WkGkybb8vG2K5ve6ZJM34EQd9Gf0lY8zWRJaVs+sVBNl+hrclnfgRDvTRPt4wotWdnjAwPz70rZlr/D90s39dT8Yn2Flmzq36/QsC1l1sj35DJ31OFCPumOWWsl6//3y7SRgda7TMvO88i2wWTFbl0+donNZhzsnIx/7ggnFBpoeOOCfVezo3y81zQ6clqXj51Qd+ll3EzxDgTrPPI0HB2mZUtb7GHNHnU4kY+fbHgQ/rAV0aYGGjbbPxloKAjDLzi4+HaH4XZojiI/cleOhr0nD3rxtiTNoXx9tCpGav0Ymu5AdNobT6PP1U9TT2Vp7uSvg5eXlzAMu91uFHWLRdrnCnyLpUGX4BotKgb45n/R+jzNbEcrX20S+SJf5It8kc9WE/kiX+SLfJEv8usBkS/yRb7IF/kin60m8kW+yBf5Il/k1wMiX+T/t/xGPYCzhsSiXOSLfJEv8kW+yBf5Iv8xIPJFvsgX+SLfKH/xtu/3rKG/X+PEDIXRpGnvSfkD319pvld5+Wu22k3Azis5qM2cJTxhb5HS8k9srRtB7SecPSoD1V9KviEj9lZwzfHjOu3noFmypeS32Uo3g6bt5d5nrkCSTsvIH7J1LIC6fRgSz22BmMuUke+o7XOt39mjUhCznzLyzbkxN4J61jAWgzZBZrQy8k0JwTeD5n87HfmYVP8y8ln7Kxugaf442dUyyFqj1Mi/cxMMdbky2i5YApn4S8k3uQHYDsZlS4tB3QbKrfqcTH04+dvho1JQd4Sya/45ScK9FTvu3SdNzVH7P1BLtf/Y8HaCqGsN0ZiueBRmY3tPyh8YUN+P/5JfT4h8kS/yRX77keX3PeWt075OrAeUx8veA47upjVJ3aD28icP+FvS1XE9oRp814PLbboVryO+lOCFp315Mxq16o4V+OmWtu/hTxja9YamNTrLN1p91R/Ts3yDue8DIPRj+dkvCDwcYuPkWL7Ts6bfi0Em3/XHLL8TiXliaiLXuV67bki/apB56E15d+/aYpPZ/BYWgs4+1fmFaBcHoMBBMbB+sPs7sYcO8nA1PG18P2+eaozjadLQ3K3/AXsCt5lipPelAAAAAElFTkSuQmCC;" parent="1" vertex="1">
           <mxGeometry x="260" y="210" width="74.4" height="58" as="geometry" />
@@ -114,6 +127,9 @@
         </mxCell>
         <mxCell id="t371tnkArtYXUVjtmktd-33" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#1A1A1A;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="545" y="360" width="70" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="RBwo3LP9QpBpMymfKp9m-23" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;The LDAP REST API and the OpenLDAP servers only accept local network access&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="397" y="360" width="106" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

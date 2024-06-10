@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-10T00:04:35.824Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kXHHqim74yKeWY788GJl" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-10T00:08:18.743Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Ad-caMMbUy7eESnvLh-0" version="24.5.2" type="github">
   <diagram name="Page-1" id="MyNjFPUw-BJLDSF9kv5I">
-    <mxGraphModel dx="1193" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1468" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
             <mxPoint x="730" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pgRUcTLzWGdcKizJ-VB0-19" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 90%;&quot;&gt;The Architecture Now&lt;/h1&gt;&lt;p style=&quot;font-size: 16px; line-height: 90%;&quot;&gt;&lt;font color=&quot;#0000ff&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;How do TAK and TAKadmin talk to each other?&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px; line-height: 90%;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;i&gt;&lt;b&gt;Easy! They don&#39;t!&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pgRUcTLzWGdcKizJ-VB0-19" value="&lt;h1 style=&quot;margin-top: 0px; line-height: 90%;&quot;&gt;The Architecture Later&lt;/h1&gt;&lt;p style=&quot;font-size: 16px; line-height: 90%;&quot;&gt;&lt;font color=&quot;#0000ff&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;How do TAK and TAKadmin talk to each other?&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 16px; line-height: 90%;&quot;&gt;&lt;font color=&quot;#00a100&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;Each system represents user and role data in a common format! It&#39;s magic!! :D&lt;/b&gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="397.45" y="-30" width="390" height="110" as="geometry" />
         </mxCell>
       </root>
